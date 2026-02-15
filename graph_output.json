@@ -1,0 +1,980 @@
+{
+  "nodes": [
+    {
+      "id": "acquisitiontarget_dineout",
+      "label": "Dineout",
+      "type": "AcquisitionTarget",
+      "attributes": {
+        "acquired_year": "2022"
+      }
+    },
+    {
+      "id": "acquisitiontarget_lynk",
+      "label": "Lynk",
+      "type": "AcquisitionTarget",
+      "attributes": {
+        "acquired_year": "2023",
+        "stake": "100%"
+      }
+    },
+    {
+      "id": "capability_analytics",
+      "label": "Analytics",
+      "type": "Capability",
+      "attributes": {}
+    },
+    {
+      "id": "capability_fulfilment",
+      "label": "Fulfilment",
+      "type": "Capability",
+      "attributes": {}
+    },
+    {
+      "id": "capability_membership",
+      "label": "Membership",
+      "type": "Capability",
+      "attributes": {
+        "branded_as": "Swiggy one"
+      }
+    },
+    {
+      "id": "capability_membership_programme",
+      "label": "Membership Programme",
+      "type": "Capability",
+      "attributes": {
+        "benefits_across": "10-minute food delivery, food delivery from restaurants, quick delivery of groceries and household items, restaurant reservations and payments, events and experiences, co-branded credit card, Quick Bites"
+      }
+    },
+    {
+      "id": "capability_swiggy_one",
+      "label": "Swiggy One",
+      "type": "Capability",
+      "attributes": {
+        "launch_year": "2021",
+        "member_count": "5.7 million"
+      }
+    },
+    {
+      "id": "capability_technology",
+      "label": "Technology",
+      "type": "Capability",
+      "attributes": {}
+    },
+    {
+      "id": "company_swiggy",
+      "label": "Swiggy",
+      "type": "Company",
+      "attributes": {
+        "Strategy": "expansion of services",
+        "Culture": "customer convenience",
+        "founded_year": "2013"
+      }
+    },
+    {
+      "id": "event_acquisition_and_integration_of_dineout_launch_of_swiggy_minis_expansion_of_swiggy_instamart_2022",
+      "label": "Acquisition and integration of Dineout, launch of Swiggy Minis, expansion of Swiggy Instamart (2022)",
+      "type": "Event",
+      "attributes": {
+        "year": "2022",
+        "tags": "Acquisition, Launch, Scale"
+      }
+    },
+    {
+      "id": "event_expansion_of_food_delivery_business_to_over_500_cities_2019",
+      "label": "Expansion of food delivery business to over 500 cities (2019)",
+      "type": "Event",
+      "attributes": {
+        "year": "2019",
+        "tags": "Scale"
+      }
+    },
+    {
+      "id": "event_first_major_fundraise_2015",
+      "label": "First major fundraise (2015)",
+      "type": "Event",
+      "attributes": {
+        "year": "2015",
+        "tags": "Fundraise"
+      }
+    },
+    {
+      "id": "event_incorporation_of_swiggy_2013",
+      "label": "Incorporation of Swiggy (2013)",
+      "type": "Event",
+      "attributes": {
+        "year": "2013",
+        "tags": "Corporate"
+      }
+    },
+    {
+      "id": "event_instamart_scaled_to_124_cities_2025",
+      "label": "Instamart scaled to 124 cities (2025); Platform surpassed 120 million transacted users, launch of SNACC and Pyng",
+      "type": "Event",
+      "attributes": {
+        "year": "2025",
+        "tags": "Launch, Milestone, Scale"
+      }
+    },
+    {
+      "id": "event_launch_of_swiggy_one_membership_program_2021",
+      "label": "Launch of Swiggy One membership program (2021)",
+      "type": "Event",
+      "attributes": {
+        "year": "2021",
+        "tags": "Launch"
+      }
+    },
+    {
+      "id": "event_launch_of_swiggyhdfc_bank_cobranded_credit_card_acquisition_of_lynk_launch_of_swiggy_mall_2023",
+      "label": "Launch of Swiggy-HDFC Bank co-branded credit card, acquisition of Lynk, launch of Swiggy Mall (2023)",
+      "type": "Event",
+      "attributes": {
+        "year": "2023",
+        "tags": "Launch, Acquisition"
+      }
+    },
+    {
+      "id": "event_swiggy_one_membership_base_crossed_57_million_public_listing_launch_of_bolt_and_swiggy_scenes_2024",
+      "label": "Swiggy One membership base crossed 5.7 million, public listing, launch of Bolt and Swiggy Scenes (2024)",
+      "type": "Event",
+      "attributes": {
+        "year": "2024",
+        "tags": "Milestone, Listing, Launch"
+      }
+    },
+    {
+      "id": "event_swiggy_pioneered_food_delivery_2014",
+      "label": "Swiggy pioneered Food Delivery (2014); Launch of Food Delivery business",
+      "type": "Event",
+      "attributes": {
+        "year": "2014",
+        "tags": "Launch, Pioneer"
+      }
+    },
+    {
+      "id": "event_swiggy_pioneered_quick_commerce_2020",
+      "label": "Swiggy pioneered Quick Commerce (2020); Launch of Swiggy Instamart and Swiggy Genie",
+      "type": "Event",
+      "attributes": {
+        "year": "2020",
+        "tags": "Launch, Pioneer"
+      }
+    },
+    {
+      "id": "feature_bolt",
+      "label": "Bolt",
+      "type": "Feature",
+      "attributes": {
+        "launch_year": "2024"
+      }
+    },
+    {
+      "id": "partner_brand_partners",
+      "label": "Brand partners",
+      "type": "Partner",
+      "attributes": {}
+    },
+    {
+      "id": "partner_delivery_partners",
+      "label": "Delivery partners",
+      "type": "Partner",
+      "attributes": {}
+    },
+    {
+      "id": "partner_merchant_partners",
+      "label": "Merchant partners",
+      "type": "Partner",
+      "attributes": {}
+    },
+    {
+      "id": "partner_restaurant_partners",
+      "label": "Restaurant partners",
+      "type": "Partner",
+      "attributes": {}
+    },
+    {
+      "id": "platform_swiggy_platform",
+      "label": "Swiggy Platform",
+      "type": "Platform",
+      "attributes": {
+        "Principle": "urban convenience",
+        "ValueProps": "convenience, speed",
+        "Capability": "delivery, logistics"
+      }
+    },
+    {
+      "id": "product_instamart",
+      "label": "Instamart",
+      "type": "Product",
+      "attributes": {}
+    },
+    {
+      "id": "product_pyng",
+      "label": "Pyng",
+      "type": "Product",
+      "attributes": {
+        "launch_year": "2025"
+      }
+    },
+    {
+      "id": "product_quick_bites",
+      "label": "Quick Bites",
+      "type": "Product",
+      "attributes": {}
+    },
+    {
+      "id": "product_snacc",
+      "label": "SNACC",
+      "type": "Product",
+      "attributes": {
+        "launch_year": "2025"
+      }
+    },
+    {
+      "id": "product_swiggy_genie",
+      "label": "Swiggy Genie",
+      "type": "Product",
+      "attributes": {
+        "launch_year": "2020"
+      }
+    },
+    {
+      "id": "product_swiggy_instamart",
+      "label": "Swiggy Instamart",
+      "type": "Product",
+      "attributes": {
+        "launch_year": "2020",
+        "scale": "25 cities, over 400 dark stores, over 8,400 SKUs"
+      }
+    },
+    {
+      "id": "product_swiggy_mall",
+      "label": "Swiggy Mall",
+      "type": "Product",
+      "attributes": {
+        "launch_year": "2023"
+      }
+    },
+    {
+      "id": "product_swiggy_minis",
+      "label": "Swiggy Minis",
+      "type": "Product",
+      "attributes": {
+        "launch_year": "2022"
+      }
+    },
+    {
+      "id": "product_swiggy_scenes",
+      "label": "Swiggy Scenes",
+      "type": "Product",
+      "attributes": {
+        "launch_year": "2024"
+      }
+    },
+    {
+      "id": "product_swiggyhdfc_bank_cobranded_credit_card",
+      "label": "Swiggy-HDFC Bank co-branded credit card",
+      "type": "Product",
+      "attributes": {
+        "launch_year": "2023"
+      }
+    },
+    {
+      "id": "service_dining_out_and_events",
+      "label": "Dining out and Events",
+      "type": "Service",
+      "attributes": {}
+    },
+    {
+      "id": "service_food_delivery",
+      "label": "Food delivery",
+      "type": "Service",
+      "attributes": {
+        "launch_year": "2014",
+        "scale": "over 500 cities"
+      }
+    },
+    {
+      "id": "service_grocery_and_household_items_delivery",
+      "label": "Grocery and Household items delivery",
+      "type": "Service",
+      "attributes": {}
+    },
+    {
+      "id": "service_other_hyperlocal_services",
+      "label": "Other hyperlocal services",
+      "type": "Service",
+      "attributes": {}
+    },
+    {
+      "id": "service_quick_commerce",
+      "label": "Quick Commerce",
+      "type": "Service",
+      "attributes": {}
+    },
+    {
+      "id": "source_chunk_5",
+      "label": "chunk_5",
+      "type": "Source",
+      "attributes": {
+        "chunk_id": "chunk_5"
+      }
+    },
+    {
+      "id": "source_chunk_6",
+      "label": "chunk_6",
+      "type": "Source",
+      "attributes": {
+        "chunk_id": "chunk_6"
+      }
+    },
+    {
+      "id": "source_chunk_7",
+      "label": "chunk_7",
+      "type": "Source",
+      "attributes": {
+        "chunk_id": "chunk_7"
+      }
+    },
+    {
+      "id": "source_swiggy_limited_ipo_prospectus",
+      "label": "Swiggy Limited IPO Prospectus",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "id": "source_swiggy_limited_ipo_prospectus_annual_report_fy_202425",
+      "label": "Swiggy Limited IPO Prospectus, Annual Report FY 2024-25",
+      "type": "Source",
+      "attributes": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "acquisitiontarget_dineout",
+      "relation": "described_in",
+      "target": "source_chunk_6",
+      "provenance": []
+    },
+    {
+      "source": "acquisitiontarget_dineout",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "acquisitiontarget_lynk",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "capability_analytics",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "capability_fulfilment",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "capability_membership",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "capability_membership_programme",
+      "relation": "benefits_across",
+      "target": "service_food_delivery",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "capability_membership_programme",
+      "relation": "benefits_across",
+      "target": "service_quick_commerce",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "capability_membership_programme",
+      "relation": "described_in",
+      "target": "source_chunk_6",
+      "provenance": []
+    },
+    {
+      "source": "capability_swiggy_one",
+      "relation": "benefits_across",
+      "target": "service_food_delivery",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "capability_swiggy_one",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "capability_technology",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "acquired",
+      "target": "acquisitiontarget_dineout",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "acquired",
+      "target": "acquisitiontarget_lynk",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "described_in",
+      "target": "source_chunk_6",
+      "provenance": []
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "described_in",
+      "target": "source_swiggy_limited_ipo_prospectus",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "described_in",
+      "target": "source_swiggy_limited_ipo_prospectus_annual_report_fy_202425",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "has_event",
+      "target": "event_acquisition_and_integration_of_dineout_launch_of_swiggy_minis_expansion_of_swiggy_instamart_2022",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "has_event",
+      "target": "event_expansion_of_food_delivery_business_to_over_500_cities_2019",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "has_event",
+      "target": "event_first_major_fundraise_2015",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "has_event",
+      "target": "event_incorporation_of_swiggy_2013",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "has_event",
+      "target": "event_instamart_scaled_to_124_cities_2025",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "has_event",
+      "target": "event_launch_of_swiggy_one_membership_program_2021",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "has_event",
+      "target": "event_launch_of_swiggyhdfc_bank_cobranded_credit_card_acquisition_of_lynk_launch_of_swiggy_mall_2023",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "has_event",
+      "target": "event_swiggy_one_membership_base_crossed_57_million_public_listing_launch_of_bolt_and_swiggy_scenes_2024",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "has_event",
+      "target": "event_swiggy_pioneered_food_delivery_2014",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "has_event",
+      "target": "event_swiggy_pioneered_quick_commerce_2020",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "company_swiggy",
+      "relation": "operates",
+      "target": "platform_swiggy_platform",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "event_acquisition_and_integration_of_dineout_launch_of_swiggy_minis_expansion_of_swiggy_instamart_2022",
+      "relation": "acquired",
+      "target": "acquisitiontarget_dineout",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_acquisition_and_integration_of_dineout_launch_of_swiggy_minis_expansion_of_swiggy_instamart_2022",
+      "relation": "launched",
+      "target": "product_swiggy_minis",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_instamart_scaled_to_124_cities_2025",
+      "relation": "launched",
+      "target": "product_pyng",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_instamart_scaled_to_124_cities_2025",
+      "relation": "launched",
+      "target": "product_snacc",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_launch_of_swiggy_one_membership_program_2021",
+      "relation": "launched",
+      "target": "capability_swiggy_one",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_launch_of_swiggyhdfc_bank_cobranded_credit_card_acquisition_of_lynk_launch_of_swiggy_mall_2023",
+      "relation": "acquired",
+      "target": "acquisitiontarget_lynk",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_launch_of_swiggyhdfc_bank_cobranded_credit_card_acquisition_of_lynk_launch_of_swiggy_mall_2023",
+      "relation": "launched",
+      "target": "product_swiggy_mall",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_launch_of_swiggyhdfc_bank_cobranded_credit_card_acquisition_of_lynk_launch_of_swiggy_mall_2023",
+      "relation": "launched",
+      "target": "product_swiggyhdfc_bank_cobranded_credit_card",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_swiggy_one_membership_base_crossed_57_million_public_listing_launch_of_bolt_and_swiggy_scenes_2024",
+      "relation": "launched",
+      "target": "feature_bolt",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_swiggy_one_membership_base_crossed_57_million_public_listing_launch_of_bolt_and_swiggy_scenes_2024",
+      "relation": "launched",
+      "target": "product_swiggy_scenes",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_swiggy_pioneered_food_delivery_2014",
+      "relation": "launched",
+      "target": "service_food_delivery",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "event_swiggy_pioneered_quick_commerce_2020",
+      "relation": "launched",
+      "target": "product_swiggy_genie",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_swiggy_pioneered_quick_commerce_2020",
+      "relation": "launched",
+      "target": "product_swiggy_instamart",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "event_swiggy_pioneered_quick_commerce_2020",
+      "relation": "launched",
+      "target": "service_quick_commerce",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "feature_bolt",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "partner_brand_partners",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "partner_delivery_partners",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "partner_merchant_partners",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "partner_restaurant_partners",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "described_in",
+      "target": "source_chunk_6",
+      "provenance": []
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "enabled_by",
+      "target": "capability_analytics",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "enabled_by",
+      "target": "capability_fulfilment",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "enabled_by",
+      "target": "capability_membership",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "enabled_by",
+      "target": "capability_membership_programme",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "enabled_by",
+      "target": "capability_technology",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "includes",
+      "target": "product_instamart",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "offers",
+      "target": "service_dining_out_and_events",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "offers",
+      "target": "service_food_delivery",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "offers",
+      "target": "service_grocery_and_household_items_delivery",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "offers",
+      "target": "service_other_hyperlocal_services",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "offers",
+      "target": "service_quick_commerce",
+      "provenance": [
+        "chunk_6"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "supported_by",
+      "target": "capability_swiggy_one",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "supported_by",
+      "target": "partner_brand_partners",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "supported_by",
+      "target": "partner_delivery_partners",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "supported_by",
+      "target": "partner_merchant_partners",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "platform_swiggy_platform",
+      "relation": "supported_by",
+      "target": "partner_restaurant_partners",
+      "provenance": [
+        "chunk_5"
+      ]
+    },
+    {
+      "source": "product_instamart",
+      "relation": "described_in",
+      "target": "source_chunk_6",
+      "provenance": []
+    },
+    {
+      "source": "product_pyng",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "product_quick_bites",
+      "relation": "described_in",
+      "target": "source_chunk_6",
+      "provenance": []
+    },
+    {
+      "source": "product_snacc",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "product_swiggy_genie",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "product_swiggy_instamart",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "product_swiggy_mall",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "product_swiggy_minis",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "product_swiggy_scenes",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "product_swiggyhdfc_bank_cobranded_credit_card",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "service_dining_out_and_events",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "service_food_delivery",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "service_food_delivery",
+      "relation": "described_in",
+      "target": "source_chunk_6",
+      "provenance": []
+    },
+    {
+      "source": "service_food_delivery",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    },
+    {
+      "source": "service_food_delivery",
+      "relation": "executed_via",
+      "target": "product_swiggy_instamart",
+      "provenance": [
+        "chunk_7"
+      ]
+    },
+    {
+      "source": "service_grocery_and_household_items_delivery",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "service_other_hyperlocal_services",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "service_quick_commerce",
+      "relation": "described_in",
+      "target": "source_chunk_6",
+      "provenance": []
+    },
+    {
+      "source": "source_swiggy_limited_ipo_prospectus",
+      "relation": "described_in",
+      "target": "source_chunk_5",
+      "provenance": []
+    },
+    {
+      "source": "source_swiggy_limited_ipo_prospectus_annual_report_fy_202425",
+      "relation": "described_in",
+      "target": "source_chunk_7",
+      "provenance": []
+    }
+  ]
+}

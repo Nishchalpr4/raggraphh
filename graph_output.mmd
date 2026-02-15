@@ -1,0 +1,164 @@
+graph TD
+    %% =========================
+    %% Core Entities
+    %% =========================
+    company_swiggy["Company: Swiggy<br/><b>Attributes</b>: Strategy=expansion of services; Culture=customer convenience; founded_year=2013"]
+    platform_swiggy_platform["Platform: Swiggy Platform<br/><b>Attributes</b>: Principle=urban convenience; ValueProps=convenience, speed; Capability=delivery, logistics"]
+    service_dining_out_and_events["Service: Dining out and Events"]
+    service_food_delivery["Service: Food delivery<br/><b>Attributes</b>: launch_year=2014; scale=over 500 cities"]
+    service_grocery_and_household_items_delivery["Service: Grocery and Household items delivery"]
+    service_other_hyperlocal_services["Service: Other hyperlocal services"]
+    service_quick_commerce["Service: Quick Commerce"]
+    partner_brand_partners["Partner: Brand partners"]
+    partner_delivery_partners["Partner: Delivery partners"]
+    partner_merchant_partners["Partner: Merchant partners"]
+    partner_restaurant_partners["Partner: Restaurant partners"]
+    capability_analytics["Capability: Analytics"]
+    capability_fulfilment["Capability: Fulfilment"]
+    capability_membership["Capability: Membership<br/><b>Attributes</b>: branded_as=Swiggy one"]
+    capability_membership_programme["Capability: Membership Programme<br/><b>Attributes</b>: benefits_across=10-minute food delivery, food delivery from restaurants, quick delivery of groceries and household items, restaurant reservations and payments, events and experiences, co-branded credit card, Quick Bites"]
+    capability_swiggy_one["Capability: Swiggy One<br/><b>Attributes</b>: launch_year=2021; member_count=5.7 million"]
+    capability_technology["Capability: Technology"]
+    %% =========================
+    %% Products / Offerings
+    %% =========================
+    product_instamart["Product: Instamart"]
+    product_pyng["Product: Pyng<br/><b>Attributes</b>: launch_year=2025"]
+    product_quick_bites["Product: Quick Bites"]
+    product_snacc["Product: SNACC<br/><b>Attributes</b>: launch_year=2025"]
+    product_swiggy_genie["Product: Swiggy Genie<br/><b>Attributes</b>: launch_year=2020"]
+    product_swiggy_instamart["Product: Swiggy Instamart<br/><b>Attributes</b>: launch_year=2020; scale=25 cities, over 400 dark stores, over 8,400 SKUs"]
+    product_swiggy_mall["Product: Swiggy Mall<br/><b>Attributes</b>: launch_year=2023"]
+    product_swiggy_minis["Product: Swiggy Minis<br/><b>Attributes</b>: launch_year=2022"]
+    product_swiggy_scenes["Product: Swiggy Scenes<br/><b>Attributes</b>: launch_year=2024"]
+    product_swiggyhdfc_bank_cobranded_credit_card["Product: Swiggy-HDFC Bank co-branded credit card<br/><b>Attributes</b>: launch_year=2023"]
+    feature_bolt["Feature: Bolt<br/><b>Attributes</b>: launch_year=2024"]
+    %% =========================
+    %% Acquisitions
+    %% =========================
+    acquisitiontarget_dineout["AcquisitionTarget: Dineout<br/><b>Attributes</b>: acquired_year=2022"]
+    acquisitiontarget_lynk["AcquisitionTarget: Lynk<br/><b>Attributes</b>: acquired_year=2023; stake=100%"]
+    %% =========================
+    %% Events / Timeline
+    %% =========================
+    event_acquisition_and_integration_of_dineout_launch_of_swiggy_minis_expansion_of_swiggy_instamart_2022["Event: Acquisition and integration of Dineout, launch of Swiggy Minis, expansion of Swiggy Instamart (2022)<br/><b>Attributes</b>: year=2022; tags=Acquisition, Launch, Scale"]
+    event_expansion_of_food_delivery_business_to_over_500_cities_2019["Event: Expansion of food delivery business to over 500 cities (2019)<br/><b>Attributes</b>: year=2019; tags=Scale"]
+    event_first_major_fundraise_2015["Event: First major fundraise (2015)<br/><b>Attributes</b>: year=2015; tags=Fundraise"]
+    event_incorporation_of_swiggy_2013["Event: Incorporation of Swiggy (2013)<br/><b>Attributes</b>: year=2013; tags=Corporate"]
+    event_instamart_scaled_to_124_cities_2025["Event: Instamart scaled to 124 cities (2025); Platform surpassed 120 million transacted users, launch of SNACC and Pyng<br/><b>Attributes</b>: year=2025; tags=Launch, Milestone, Scale"]
+    event_launch_of_swiggy_one_membership_program_2021["Event: Launch of Swiggy One membership program (2021)<br/><b>Attributes</b>: year=2021; tags=Launch"]
+    event_launch_of_swiggyhdfc_bank_cobranded_credit_card_acquisition_of_lynk_launch_of_swiggy_mall_2023["Event: Launch of Swiggy-HDFC Bank co-branded credit card, acquisition of Lynk, launch of Swiggy Mall (2023)<br/><b>Attributes</b>: year=2023; tags=Launch, Acquisition"]
+    event_swiggy_one_membership_base_crossed_57_million_public_listing_launch_of_bolt_and_swiggy_scenes_2024["Event: Swiggy One membership base crossed 5.7 million, public listing, launch of Bolt and Swiggy Scenes (2024)<br/><b>Attributes</b>: year=2024; tags=Milestone, Listing, Launch"]
+    event_swiggy_pioneered_food_delivery_2014["Event: Swiggy pioneered Food Delivery (2014); Launch of Food Delivery business<br/><b>Attributes</b>: year=2014; tags=Launch, Pioneer"]
+    event_swiggy_pioneered_quick_commerce_2020["Event: Swiggy pioneered Quick Commerce (2020); Launch of Swiggy Instamart and Swiggy Genie<br/><b>Attributes</b>: year=2020; tags=Launch, Pioneer"]
+    %% =========================
+    %% Sources
+    %% =========================
+    source_chunk_5["Source: chunk_5"]
+    source_chunk_6["Source: chunk_6"]
+    source_chunk_7["Source: chunk_7"]
+    source_swiggy_limited_ipo_prospectus["Source: Swiggy Limited IPO Prospectus"]
+    source_swiggy_limited_ipo_prospectus_annual_report_fy_202425["Source: Swiggy Limited IPO Prospectus, Annual Report FY 2024-25"]
+    %% =========================
+    %% Core Structure
+    %% =========================
+    company_swiggy -->|operates| platform_swiggy_platform
+    platform_swiggy_platform -->|enabled_by| capability_analytics
+    platform_swiggy_platform -->|enabled_by| capability_fulfilment
+    platform_swiggy_platform -->|enabled_by| capability_membership
+    platform_swiggy_platform -->|enabled_by| capability_membership_programme
+    platform_swiggy_platform -->|enabled_by| capability_technology
+    platform_swiggy_platform -->|offers| service_dining_out_and_events
+    platform_swiggy_platform -->|offers| service_food_delivery
+    platform_swiggy_platform -->|offers| service_grocery_and_household_items_delivery
+    platform_swiggy_platform -->|offers| service_other_hyperlocal_services
+    platform_swiggy_platform -->|offers| service_quick_commerce
+    platform_swiggy_platform -->|supported_by| capability_swiggy_one
+    platform_swiggy_platform -->|supported_by| partner_brand_partners
+    platform_swiggy_platform -->|supported_by| partner_delivery_partners
+    platform_swiggy_platform -->|supported_by| partner_merchant_partners
+    platform_swiggy_platform -->|supported_by| partner_restaurant_partners
+    %% =========================
+    %% Product Mapping
+    %% =========================
+    capability_membership_programme -->|benefits_across| service_food_delivery
+    capability_membership_programme -->|benefits_across| service_quick_commerce
+    capability_swiggy_one -->|benefits_across| service_food_delivery
+    platform_swiggy_platform -->|includes| product_instamart
+    service_food_delivery -->|executed_via| product_swiggy_instamart
+    %% =========================
+    %% Acquisitions
+    %% =========================
+    company_swiggy -->|acquired| acquisitiontarget_dineout
+    company_swiggy -->|acquired| acquisitiontarget_lynk
+    event_acquisition_and_integration_of_dineout_launch_of_swiggy_minis_expansion_of_swiggy_instamart_2022 -->|acquired| acquisitiontarget_dineout
+    event_launch_of_swiggyhdfc_bank_cobranded_credit_card_acquisition_of_lynk_launch_of_swiggy_mall_2023 -->|acquired| acquisitiontarget_lynk
+    %% =========================
+    %% Timeline
+    %% =========================
+    company_swiggy -->|has_event| event_acquisition_and_integration_of_dineout_launch_of_swiggy_minis_expansion_of_swiggy_instamart_2022
+    company_swiggy -->|has_event| event_expansion_of_food_delivery_business_to_over_500_cities_2019
+    company_swiggy -->|has_event| event_first_major_fundraise_2015
+    company_swiggy -->|has_event| event_incorporation_of_swiggy_2013
+    company_swiggy -->|has_event| event_instamart_scaled_to_124_cities_2025
+    company_swiggy -->|has_event| event_launch_of_swiggy_one_membership_program_2021
+    company_swiggy -->|has_event| event_launch_of_swiggyhdfc_bank_cobranded_credit_card_acquisition_of_lynk_launch_of_swiggy_mall_2023
+    company_swiggy -->|has_event| event_swiggy_one_membership_base_crossed_57_million_public_listing_launch_of_bolt_and_swiggy_scenes_2024
+    company_swiggy -->|has_event| event_swiggy_pioneered_food_delivery_2014
+    company_swiggy -->|has_event| event_swiggy_pioneered_quick_commerce_2020
+    event_acquisition_and_integration_of_dineout_launch_of_swiggy_minis_expansion_of_swiggy_instamart_2022 -->|launched| product_swiggy_minis
+    event_instamart_scaled_to_124_cities_2025 -->|launched| product_pyng
+    event_instamart_scaled_to_124_cities_2025 -->|launched| product_snacc
+    event_launch_of_swiggy_one_membership_program_2021 -->|launched| capability_swiggy_one
+    event_launch_of_swiggyhdfc_bank_cobranded_credit_card_acquisition_of_lynk_launch_of_swiggy_mall_2023 -->|launched| product_swiggy_mall
+    event_launch_of_swiggyhdfc_bank_cobranded_credit_card_acquisition_of_lynk_launch_of_swiggy_mall_2023 -->|launched| product_swiggyhdfc_bank_cobranded_credit_card
+    event_swiggy_one_membership_base_crossed_57_million_public_listing_launch_of_bolt_and_swiggy_scenes_2024 -->|launched| feature_bolt
+    event_swiggy_one_membership_base_crossed_57_million_public_listing_launch_of_bolt_and_swiggy_scenes_2024 -->|launched| product_swiggy_scenes
+    event_swiggy_pioneered_food_delivery_2014 -->|launched| service_food_delivery
+    event_swiggy_pioneered_quick_commerce_2020 -->|launched| product_swiggy_genie
+    event_swiggy_pioneered_quick_commerce_2020 -->|launched| product_swiggy_instamart
+    event_swiggy_pioneered_quick_commerce_2020 -->|launched| service_quick_commerce
+    %% =========================
+    %% Provenance
+    %% =========================
+    acquisitiontarget_dineout -->|described_in| source_chunk_6
+    acquisitiontarget_dineout -->|described_in| source_chunk_7
+    acquisitiontarget_lynk -->|described_in| source_chunk_7
+    capability_analytics -->|described_in| source_chunk_5
+    capability_fulfilment -->|described_in| source_chunk_5
+    capability_membership -->|described_in| source_chunk_5
+    capability_membership_programme -->|described_in| source_chunk_6
+    capability_swiggy_one -->|described_in| source_chunk_7
+    capability_technology -->|described_in| source_chunk_5
+    company_swiggy -->|described_in| source_chunk_5
+    company_swiggy -->|described_in| source_chunk_6
+    company_swiggy -->|described_in| source_chunk_7
+    company_swiggy -->|described_in| source_swiggy_limited_ipo_prospectus
+    company_swiggy -->|described_in| source_swiggy_limited_ipo_prospectus_annual_report_fy_202425
+    feature_bolt -->|described_in| source_chunk_7
+    partner_brand_partners -->|described_in| source_chunk_5
+    partner_delivery_partners -->|described_in| source_chunk_5
+    partner_merchant_partners -->|described_in| source_chunk_5
+    partner_restaurant_partners -->|described_in| source_chunk_5
+    platform_swiggy_platform -->|described_in| source_chunk_5
+    platform_swiggy_platform -->|described_in| source_chunk_6
+    platform_swiggy_platform -->|described_in| source_chunk_7
+    product_instamart -->|described_in| source_chunk_6
+    product_pyng -->|described_in| source_chunk_7
+    product_quick_bites -->|described_in| source_chunk_6
+    product_snacc -->|described_in| source_chunk_7
+    product_swiggy_genie -->|described_in| source_chunk_7
+    product_swiggy_instamart -->|described_in| source_chunk_7
+    product_swiggy_mall -->|described_in| source_chunk_7
+    product_swiggy_minis -->|described_in| source_chunk_7
+    product_swiggy_scenes -->|described_in| source_chunk_7
+    product_swiggyhdfc_bank_cobranded_credit_card -->|described_in| source_chunk_7
+    service_dining_out_and_events -->|described_in| source_chunk_5
+    service_food_delivery -->|described_in| source_chunk_5
+    service_food_delivery -->|described_in| source_chunk_6
+    service_food_delivery -->|described_in| source_chunk_7
+    service_grocery_and_household_items_delivery -->|described_in| source_chunk_5
+    service_other_hyperlocal_services -->|described_in| source_chunk_5
+    service_quick_commerce -->|described_in| source_chunk_6
+    source_swiggy_limited_ipo_prospectus -->|described_in| source_chunk_5
+    source_swiggy_limited_ipo_prospectus_annual_report_fy_202425 -->|described_in| source_chunk_7
